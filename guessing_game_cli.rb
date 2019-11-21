@@ -16,7 +16,7 @@ def process(guess, number)
   elsif guess == "exit"
     aborting
   else
-    losing
+    losing(number)
   end
 end
 
