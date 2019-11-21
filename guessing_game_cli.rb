@@ -14,13 +14,18 @@ def number
 end
 
 
-def win
+def winning
   puts "You guessed the correct number!"
 end
 
 
-def lose(num)
+def losing(num)
   puts "Sorry! The computer guessed #{num}."
+end
+
+
+def aborting
+  puts "Goodbye!"
 end
 
 
