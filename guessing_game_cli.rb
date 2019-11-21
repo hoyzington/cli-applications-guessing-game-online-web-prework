@@ -1,11 +1,11 @@
 
-def 
+def number
   
   
 end
 
 
-def 
+def win
   
   
 end
