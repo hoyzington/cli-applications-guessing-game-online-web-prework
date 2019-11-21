@@ -1,6 +1,7 @@
 
 def prompt
   puts "The computer is thinking of a number betweeen 1 and 6."
+  puts "Guess the number!"
 end
 
 
