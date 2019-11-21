@@ -42,9 +42,9 @@ end
 
 
 def run_guessing_game
-  num = number
+  number = generate_number
   prompt
   guess = guessing
-  process(guess, num)
+  process(guess, number)
 end
 
