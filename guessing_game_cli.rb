@@ -17,6 +17,7 @@ def process(guess, number)
     aborting
   else
     losing
+  end
 end
 
 
