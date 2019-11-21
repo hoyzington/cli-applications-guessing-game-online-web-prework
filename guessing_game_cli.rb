@@ -11,7 +11,7 @@ end
 
 
 def guessing
-  gets.chomp
+  gets.chomp.to_i
 end
 
 
