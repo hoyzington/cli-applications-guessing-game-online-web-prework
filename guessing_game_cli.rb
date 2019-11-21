@@ -30,6 +30,17 @@ def aborting
 end
 
 
+def process(guess, number)
+  if guess == number
+    winning
+  elsif guess == "exit"
+    aborting
+  else
+    losing(number)
+  end
+end
+
+
 def run_guessing_game
   number = generate_number
   prompt
