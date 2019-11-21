@@ -31,7 +31,9 @@ end
 
 
 def process(guess, number)
-  if guess == number
+  if guess == "exit"
+    aborting
+  elsif guess.to_i == number
     winning
   else
     losing(number)
