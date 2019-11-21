@@ -33,8 +33,6 @@ end
 def process(guess, number)
   if guess == number
     winning
-  elsif guess == "exit"
-    aborting
   else
     losing(number)
   end
