@@ -1,4 +1,10 @@
 
+def win
+  
+  
+end
+
+
 def number
   
   
