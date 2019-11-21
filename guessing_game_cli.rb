@@ -15,11 +15,6 @@ def user_input
 end
 
 
-def number
-  rand(6) + 1
-end
-
-
 def winning
   puts "You guessed the correct number!"
 end
